@@ -13,7 +13,7 @@ body {
     margin:0 auto;
     margin-top: 60px;
     border-radius: 20px;
-    box-shadow: 0 0 30px black;
+    box-shadow: 0 0 20px black;
     width: 100%;
     background-color: #000;
     max-width: 350px;
@@ -58,6 +58,12 @@ body {
     outline: none;
     margin: 0 auto;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: orange;
 }
 
 .edit {
